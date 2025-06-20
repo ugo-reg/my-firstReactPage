@@ -1,0 +1,19 @@
+.act{border-radius: 50%;
+height:250px;
+width:250px;
+padding:20px;
+text-align: center;
+}
+
+.cast{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+ 
+}
+.actor{
+    text-align: center;
+    line-height: 0;
+    padding: 16px 0px;
+}
+
+.act:hover{cursor:pointer;}

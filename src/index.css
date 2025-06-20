@@ -1,0 +1,52 @@
+:root {
+  font-family: comic;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.con{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+border-radius: 20px;
+grid-gap:10px;
+}
+
+
+
+.movie{
+background-color: #242424;
+color:white}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  text-align: center;
+}
+h1>p{text-align: center;}
+
+
+#root{
+background-color: #213547;
+color:aliceblue;
+margin: 0 auto;
+padding:20px;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
