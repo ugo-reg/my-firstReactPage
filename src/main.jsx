@@ -4,6 +4,7 @@ import { createRoot } from 'react-dom/client'
 import Header from './Header.jsx'
 import App from './App.jsx'
 import Trial from './trial.jsx'
+import Footer from './Footer.jsx'
 import './index.css' 
 
 createRoot(document.getElementById('root')).render(
@@ -84,5 +85,6 @@ createRoot(document.getElementById('root')).render(
     name="Viola Davis"  
     age="59" />
    </div>
+  <Footer />
   </StrictMode>
 )

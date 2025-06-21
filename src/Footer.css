@@ -1,0 +1,18 @@
+button{text-align: center;}
+.footer{background-color: black;
+padding:10px;
+text-align: center;}
+li:hover{
+text-decoration: underline;
+color:aqua;
+}
+a{color:white;
+text-decoration: none;}
+input{ padding:8px;
+font-size: 20px;
+border-radius: 10px;
+width:400px;
+}
+footer{
+text-align: center;}
+ul li{list-style: none;}
