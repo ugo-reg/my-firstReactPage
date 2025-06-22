@@ -11,8 +11,9 @@ function footer(){
             <li><a href="">instagram</a></li>
             <li><a href="">facebook</a></li>
         </ul>
-        <input type="search" placeholder="name of movie"/>
-       <footer>
+        <input type="search" placeholder="name of movie" required/>
+    
+               <footer>
         <p>Built with ❤️ by Ugochi using React · Hosted on Netlify </p>
        </footer>
 
