@@ -16,3 +16,13 @@ width:400px;
 footer{
 text-align: center;}
 ul li{list-style: none;}
+
+@media (max-width: 600px) {
+  input {
+    width: 100%;
+    font-size: 16px;
+  }
+  .footer {
+    padding: 5px;
+  }
+}

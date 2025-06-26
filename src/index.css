@@ -62,4 +62,13 @@ padding:20px;
   h1 {
     font-size: 2em;
   }
+  .movie{
+    background-color: #242424;
+    color:white}
+}
+
+@media (max-width: 900px) {
+  .con {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }

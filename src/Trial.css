@@ -17,3 +17,15 @@ text-align: center;
 }
 
 .act:hover{cursor:pointer;}
+@media(max-width: 600px){
+    .cast{grid-template-columns: 1fr;
+    }
+    .act{
+        height:150px;
+        width:150px;
+        padding:10px;
+    }
+    .actor{
+        padding: 8px 0px;
+    }
+}
