@@ -29,3 +29,7 @@ text-align: center;
         padding: 8px 0px;
     }
 }
+@media (max-width: 900px){
+     .cast{grid-template-columns: 1fr 1fr;
+    }
+}
