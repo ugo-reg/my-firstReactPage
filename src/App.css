@@ -37,3 +37,9 @@ box-shadow: 5px 4px #888888;
   'opsz' 24;
   font-size:14px;
 }
+@media(max-width:600px)
+{
+.movie{
+ background-color: #213547;
+ color: white;}
+}
