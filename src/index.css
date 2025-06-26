@@ -49,4 +49,17 @@ padding:20px;
     color: #213547;
     background-color: #ffffff;
   }
+  
+}
+@media (max-width: 600px) {
+  .con {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  #root {
+    padding: 10px;
+  }
+  h1 {
+    font-size: 2em;
+  }
 }
