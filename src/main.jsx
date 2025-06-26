@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 
 import Header from './Header.jsx'
 import App from './App.jsx'
-import Trial from './trial.jsx'
+import Trial from './Trial.jsx'
 import Footer from './Footer.jsx'
 import './index.css' 
 
